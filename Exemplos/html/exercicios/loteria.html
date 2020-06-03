@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loteria</title>
+</head>
+<body>
+    <h1>Jogo da Semana</h1>
+    <section id="jogo"></section>
+    <script>
+        for (let i = 1; i = 25; i++) {
+            const jogo = document.getElementById('jogo')
+
+            function getInteiroAleatorioEntre(min, max) {
+                const valor = Math.random() * (max - min) + min  
+                return Math.floor(valor)
+            }
+            jogo = getInteiroAleatorioEntre(-1, 10)  
+            console.log(`Jogue o número ${jogo}.`)
+        } 
+                
+    </script>
+</body>
+</html>
