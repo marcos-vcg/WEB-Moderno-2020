@@ -1,6 +1,6 @@
 const nums = [1, 2, 3, 4, 5]
 
-// for com um propósito
+// for com um propósito, diferente do forEach, o map retorna um novo array.
 // recebe uma callback function com até 3 argumentos, valor, indice, array
 let resultado = nums.map(function(e) {
     return e * 2
