@@ -1,4 +1,4 @@
-// flatMap => Map Associado a um concat para gerar um só array com os valores como resposta.
+// flatMap => Map Associado a um concat para gerar um só array com os valores concatenados dos Arrays.
 
 const escola = [{
     nome: 'Turma M1', 
